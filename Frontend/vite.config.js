@@ -11,6 +11,9 @@ export default defineConfig({
         target: "https://chat-web-apps.onrender.com",
         changeOrigin: true,
       },
+      build: {
+        outDir: 'dist',
+      },
     },
   },
 });
